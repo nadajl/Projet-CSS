@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Importation de la police Roboto depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.title {
+ text-align: center;
+ color: goldenrod;
+ margin-top: 15px;
+
+
+}
+
+
+.navbar{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+
+    }
+    
+.navbar li{
+    display: inline; 
+    margin: 0 15px;
+    flex-grow:  1;
+    }
+   
+.navbar li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    color: goldenrod;
+    transition: all 0.4s linear;
+    
+    }
+  
+        
+.navbar a {
+            display: inline-block;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.4s;
+        }
+        
+.navbar a:hover {
+            background-color: goldenrod;
+            color: #333;
+        }   
+    
+
+
+      
+    
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 15px;
+   
+        }
+
+
+.content{
+margin-left: 20px;
+margin-top: 3px;
+margin-bottom: 15px;
+text-align: center;
+
+}
+.about ul{
+    list-style: none;
+    text-align: center;
+
+}
+.resume table{
+    margin-left: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.contact  {
+    margin-top: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+ margin-right: 450px;
+ margin-left: 450px;
+}
